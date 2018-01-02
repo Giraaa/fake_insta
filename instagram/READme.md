@@ -10,17 +10,17 @@ git 셋팅(git init부터)
 C/R/U/D 마다 commit 하기
 posts 컨트롤러와 post 모델만!
 ### 1. routes.rb
-  # index
+  #### index
   get '/posts' =>
-  # Create
+  #### Create
   get '/posts/new' =>
   post '/posts'=>
-  # Read
+  #### Read
   get '/posts/:id'  =>
-  # Update
+  #### Update
   get '/posts/:id/edit' =>
   put '/posts/:id' =>
-  # Delete
+  #### Delete
   delete '/posts/:id' =>
 ### 2. scaffolding.. 편하게 CRUD
 ### 3. 파일업로드(내일...ㅠ_ㅠ)
