@@ -1,0 +1,11 @@
+<h1>Posts#index</h1>
+<p>Find me in app/views/posts/index.html.erb</p>
+
+<% @posts.each do |post| %>
+<p><%=post.title%></p>
+<p><%=post.content%></p>
+<img src="<%=post.postimage.url%>">
+<img src="<%=post.postimage.thumb%>">
+<p><a href="/posts/<%=post.id%>">보기</a></p>
+<hr />
+<% end %>
